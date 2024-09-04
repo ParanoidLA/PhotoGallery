@@ -3,8 +3,12 @@
   "compilerOptions": {
     "jsx": "react",
     "strict": true,
-    "resolveJsonModule": true,       
-    "esModuleInterop": true,         
-    "skipLibCheck": true             
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   }
 }
