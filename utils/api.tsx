@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Your Pixabay API key
-const PIXABAY_API_KEY = '45430984-1e98cf0c2b6388b4c52cf8123';
+const PIXABAY_API_KEY = 'your-api-key';
 const BASE_URL = 'https://pixabay.com/api/';
 
 // Define the types for the API response
